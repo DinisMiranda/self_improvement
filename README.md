@@ -2,7 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Repositório de **notas e guias** para consulta rápida: terminal, Git, bases de dados e frontend. Tudo num sítio para não perder tempo a procurar.
+> Guias de referência pessoal: terminal, Git, Conventional Commits, MongoDB, MySQL, Vue.js (Options API). Tudo num sítio para consulta rápida.
+
+`reference` `documentation` `git` `terminal` `conventional-commits` `mongodb` `mysql` `vue` `vuejs` `guides`
 
 ---
 
