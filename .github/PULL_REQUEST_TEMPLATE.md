@@ -15,4 +15,4 @@ Lista os ficheiros principais que modificaste.
 
 ---
 
-Obrigado por contribuíres. Se seguiste [Conventional Commits](https://github.com/DinisMiranda/self_improvement/blob/main/conventional-commits.md), ótimo; se não, não há problema.
+Obrigado por contribuíres. Se seguiste [Conventional Commits](https://github.com/DinisMiranda/self_improvement/blob/main/docs/git/conventional-commits.md), ótimo; se não, não há problema.

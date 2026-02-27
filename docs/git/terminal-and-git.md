@@ -6,7 +6,7 @@
 
 ## Parte 1 — Navegar no computador
 
-O terminal trabalha com **pastas** (diretórios). Estás sempre “dentro” de uma. Estes comandos servem para ver onde estás e mudar de sítio.
+O terminal trabalha com **pastas** (diretórios). Estás sempre "dentro" de uma. Estes comandos servem para ver onde estás e mudar de sítio.
 
 ### `pwd` — Onde estou?
 - Mostra o **caminho completo** da pasta onde estás.
@@ -21,7 +21,7 @@ O terminal trabalha com **pastas** (diretórios). Estás sempre “dentro” de 
 | Comando | O que faz |
 |---------|-----------|
 | `cd nome_da_pasta` | Entra nessa pasta (tem de existir) |
-| `cd ..` | Sobe um nível (pasta “pai”) |
+| `cd ..` | Sobe um nível (pasta "pai") |
 | `cd` | Vai à tua pasta de utilizador (home) |
 | `cd /caminho/completo` | Vai diretamente para esse caminho |
 
@@ -44,12 +44,12 @@ O Git guarda **versões** do teu projeto. Assim podes voltar atrás se algo corr
 - *Usa sempre que quiseres saber o estado do projeto.*
 
 ### `git init` — Começar a usar Git
-- Faz **uma vez** por projeto. Cria a pasta oculta `.git` e o projeto passa a ser um “projeto Git”.
+- Faz **uma vez** por projeto. Cria a pasta oculta `.git` e o projeto passa a ser um "projeto Git".
 
 ### `git add` — Preparar ficheiros
 - **`git add nome_do_ficheiro`** — prepara esse ficheiro.
 - **`git add .`** — prepara todos os ficheiros alterados.
-- “Preparar” = marcar para entrar na próxima “fotografia” (commit).
+- "Preparar" = marcar para entrar na próxima "fotografia" (commit).
 
 ### `git commit` — Guardar uma versão
 - **`git commit -m "Descrição do que fizeste"`** — guarda as alterações que preparaste, com uma mensagem curta.

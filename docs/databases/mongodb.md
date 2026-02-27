@@ -75,7 +75,7 @@ Pipeline = sequência de estágios. Cada estágio transforma os documentos.
 | **`$group`** | Agrupar e fazer contas (count, sum, avg) |
 | **`$sort`** | Ordenar |
 | **`$project`** | Escolher/renomear campos |
-| **`$lookup`** | “Join” com outra collection |
+| **`$lookup`** | "Join" com outra collection |
 | **`$unwind`** | Expandir um array em vários documentos |
 | **`$limit`** / **`$skip`** | Paginação |
 

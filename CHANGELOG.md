@@ -4,17 +4,27 @@ Alterações notáveis neste repositório. O formato é baseado em [Keep a Chang
 
 ---
 
+## [1.1.0] — 2025-02-27
+
+### Alterado
+
+- **Reorganização** — Documentação agrupada em `docs/` por domínio:
+  - `docs/git/` — terminal-and-git.md, conventional-commits.md
+  - `docs/databases/` — mongodb.md, mysql.md
+  - `docs/frontend/` — vue.md
+  - `docs/meta/` — prompts-given.md
+- README com secção **Estrutura do repositório** e links atualizados para `docs/`.
+- **docs/README.md** — índice da documentação.
+- CONTRIBUTING e PULL_REQUEST_TEMPLATE: links para Conventional Commits apontam para `docs/git/conventional-commits.md`.
+
+---
+
 ## [1.0.0] — 2025-02-27
 
 ### Adicionado
 
 - README com índice de todos os guias.
-- **comandos-terminal-e-git.md** — navegação no terminal e comandos Git.
-- **conventional-commits.md** — prefixos e formato para mensagens de commit.
-- **prompts-given.md** — resumo dos prompts usados noutro repo.
-- **mongodb-referencia.md** — MongoDB: ligação, CRUD, agregações, índices.
-- **mysql-referencia.md** — MySQL: ligação, queries, boas práticas.
-- **vue-referencia.md** — Vue.js (Options API): CLI, componentes, Router, Pinia.
+- Guias: terminal e Git, conventional commits, prompts-given, MongoDB, MySQL, Vue.js (Options API).
 - .gitignore para OS, IDE e ficheiros sensíveis.
 
 ### Adicionado (melhorias “profissional”)

@@ -14,7 +14,7 @@
 |-------|-------------|
 | **type** | O tipo de alteração (prefixo). |
 | **scope** (opcional) | A área/módulo afetado (ex.: api, auth, docs). |
-| **summary** | Resumo curto, em imperativo e presente (“add”, “fix”, “update”). |
+| **summary** | Resumo curto, em imperativo e presente ("add", "fix", "update"). |
 
 ### Exemplos do formato completo
 
@@ -139,7 +139,7 @@ BREAKING CHANGE: `user_id` renamed to `id`.
 ## Regras simples que funcionam
 
 1. **Resumo curto** — idealmente ≤ 72 caracteres.
-2. **Verbos no imperativo** — “add”, “fix”, “remove”, “update”.
+2. **Verbos no imperativo** — "add", "fix", "remove", "update".
 3. **Um commit = uma alteração lógica** (quando possível).
 4. Preferir **`refactor:`** em vez de **`chore:`** quando estás a mudar estrutura de código.
 5. **`build:`** para dependências e toolchain; **`ci:`** para pipelines e ações de CI.

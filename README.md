@@ -8,24 +8,45 @@
 
 ---
 
-## Conteúdo
+## Estrutura do repositório
 
-| Ficheiro | O que encontras |
-|----------|------------------|
-| [comandos-terminal-e-git.md](comandos-terminal-e-git.md) | Navegação no terminal e comandos Git do dia a dia |
-| [conventional-commits.md](conventional-commits.md) | Prefixos e formato para mensagens de commit (Conventional Commits) |
-| [prompts-given.md](prompts-given.md) | Resumo dos prompts usados noutro repo (organização, testes, docs) |
-| [mongodb-referencia.md](mongodb-referencia.md) | MongoDB: ligação, CRUD, agregações, índices |
-| [mysql-referencia.md](mysql-referencia.md) | MySQL: ligação, queries, boas práticas |
-| [vue-referencia.md](vue-referencia.md) | Vue.js (Options API): CLI, componentes, Router, Pinia |
+```
+.
+├── README.md           # Este ficheiro
+├── LICENSE
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── .gitignore
+├── .github/            # CODEOWNERS, Dependabot, issue/PR templates
+└── docs/               # Guias de referência
+    ├── README.md       # Índice da documentação
+    ├── git/            # Terminal e Git
+    ├── databases/      # MongoDB, MySQL
+    ├── frontend/       # Vue.js
+    └── meta/           # Notas sobre outros projetos
+```
+
+---
+
+## Documentação
+
+| Área | Guias |
+|------|--------|
+| **Git e terminal** | [Terminal e Git](docs/git/terminal-and-git.md) · [Conventional Commits](docs/git/conventional-commits.md) |
+| **Bases de dados** | [MongoDB](docs/databases/mongodb.md) · [MySQL](docs/databases/mysql.md) |
+| **Frontend** | [Vue.js (Options API)](docs/frontend/vue.md) |
+| **Meta** | [Prompts dados noutro repo](docs/meta/prompts-given.md) |
+
+Índice completo: **[docs/README.md](docs/README.md)**.
 
 ---
 
 ## Como usar
 
-- Abre o ficheiro que precisas e usa a pesquisa do editor (Ctrl/Cmd + F) para encontrar o tópico.
+- Abre o guia que precisas em `docs/` e usa a pesquisa do editor (Ctrl/Cmd + F).
 - Podes editar e acrescentar notas à medida que aprendes.
-- Para sugerir mais áreas ou melhorar um guia, abre uma [issue](https://github.com/DinisMiranda/self_improvement/issues) ou consulta [CONTRIBUTING.md](CONTRIBUTING.md).
+- Para sugerir melhorias, abre uma [issue](https://github.com/DinisMiranda/self_improvement/issues) ou consulta [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 

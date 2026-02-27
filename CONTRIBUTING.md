@@ -8,7 +8,7 @@ Este repositório é sobretudo **pessoal** (notas e guias de referência), mas s
 2. **Pull requests** — Se quiseres editar diretamente:
    - Faz fork do repositório.
    - Cria uma branch para a tua alteração (ex.: `docs/novo-guia-docker`).
-   - Faz as alterações e um commit com mensagem clara (usa [Conventional Commits](conventional-commits.md) se quiseres, ex.: `docs: add Docker reference`).
+   - Faz as alterações e um commit com mensagem clara (usa [Conventional Commits](docs/git/conventional-commits.md) se quiseres, ex.: `docs: add Docker reference`).
    - Abre um pull request para a branch `main` descrevendo o que fizeste.
 
 ## Estilo

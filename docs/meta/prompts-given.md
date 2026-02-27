@@ -47,7 +47,7 @@ Pediste duas coisas:
 - Ficheiros como **CODEOWNERS** e **Dependabot** para manter dependências atualizadas.
 - Comandos para definir a descrição e os tópicos do repositório no GitHub.
 
-### “Realmente profissional”
+### "Realmente profissional"
 No fim pediste ficheiros que projetos sérios costumam ter:
 
 | Ficheiro / coisa | Para quê |
