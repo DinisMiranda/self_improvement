@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Guia de contribuição
+    url: https://github.com/DinisMiranda/self_improvement/blob/main/CONTRIBUTING.md
+    about: Como contribuir com sugestões ou PRs
