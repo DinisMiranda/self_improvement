@@ -1,39 +1,47 @@
 # Changelog
 
-Alterações notáveis neste repositório. O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
+Notable changes in this repository. Format based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+---
+
+## [1.2.0] — 2025-02-27
+
+### Changed
+
+- **Language** — All content translated to English: README, CONTRIBUTING, SECURITY, CHANGELOG, docs (index and all guides), and .github templates (issue/PR, config, CODEOWNERS, dependabot comments).
 
 ---
 
 ## [1.1.0] — 2025-02-27
 
-### Alterado
+### Changed
 
-- **Reorganização** — Documentação agrupada em `docs/` por domínio:
+- **Reorganization** — Documentation grouped under `docs/` by domain:
   - `docs/git/` — terminal-and-git.md, conventional-commits.md
   - `docs/databases/` — mongodb.md, mysql.md
   - `docs/frontend/` — vue.md
   - `docs/meta/` — prompts-given.md
-- README com secção **Estrutura do repositório** e links atualizados para `docs/`.
-- **docs/README.md** — índice da documentação.
-- CONTRIBUTING e PULL_REQUEST_TEMPLATE: links para Conventional Commits apontam para `docs/git/conventional-commits.md`.
+- README with **Repository structure** section and links updated to `docs/`.
+- **docs/README.md** — documentation index.
+- CONTRIBUTING and PULL_REQUEST_TEMPLATE: links to Conventional Commits point to `docs/git/conventional-commits.md`.
 
 ---
 
 ## [1.0.0] — 2025-02-27
 
-### Adicionado
+### Added
 
-- README com índice de todos os guias.
-- Guias: terminal e Git, conventional commits, prompts-given, MongoDB, MySQL, Vue.js (Options API).
-- .gitignore para OS, IDE e ficheiros sensíveis.
+- README with index of all guides.
+- Guides: terminal and Git, conventional commits, prompts-given, MongoDB, MySQL, Vue.js (Options API).
+- .gitignore for OS, IDE, and sensitive files.
 
-### Adicionado (melhorias “profissional”)
+### Added (professional improvements)
 
-- SECURITY.md — como reportar vulnerabilidades.
-- CONTRIBUTING.md — como contribuir com issues ou PRs.
-- CHANGELOG.md — este ficheiro.
+- SECURITY.md — how to report vulnerabilities.
+- CONTRIBUTING.md — how to contribute with issues or PRs.
+- CHANGELOG.md — this file.
 - LICENSE (MIT).
-- Badges no README (licença).
-- .github/CODEOWNERS — responsável por defeito.
-- .github/dependabot.yml — atualizações de dependências (quando existirem).
-- Templates de issues (bug, feature request) e de pull request.
+- Badges in README (license).
+- .github/CODEOWNERS — default owner.
+- .github/dependabot.yml — dependency updates (when present).
+- Issue templates (bug, feature request) and pull request template.

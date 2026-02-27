@@ -1,59 +1,59 @@
-# Self Improvement — referência pessoal
+# Self Improvement — personal reference
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Guias de referência pessoal: terminal, Git, Conventional Commits, MongoDB, MySQL, Vue.js (Options API). Tudo num sítio para consulta rápida.
+> Personal reference guides: terminal, Git, Conventional Commits, MongoDB, MySQL, Vue.js (Options API). All in one place for quick lookup.
 
 `reference` `documentation` `git` `terminal` `conventional-commits` `mongodb` `mysql` `vue` `vuejs` `guides`
 
 ---
 
-## Estrutura do repositório
+## Repository structure
 
 ```
 .
-├── README.md           # Este ficheiro
+├── README.md           # This file
 ├── LICENSE
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── SECURITY.md
 ├── .gitignore
 ├── .github/            # CODEOWNERS, Dependabot, issue/PR templates
-└── docs/               # Guias de referência
-    ├── README.md       # Índice da documentação
-    ├── git/            # Terminal e Git
-    ├── databases/      # MongoDB, MySQL
-    ├── frontend/       # Vue.js
-    └── meta/           # Notas sobre outros projetos
+└── docs/                # Reference guides
+    ├── README.md        # Documentation index
+    ├── git/             # Terminal and Git
+    ├── databases/       # MongoDB, MySQL
+    ├── frontend/        # Vue.js
+    └── meta/            # Notes about other projects
 ```
 
 ---
 
-## Documentação
+## Documentation
 
-| Área | Guias |
+| Area | Guides |
 |------|--------|
-| **Git e terminal** | [Terminal e Git](docs/git/terminal-and-git.md) · [Conventional Commits](docs/git/conventional-commits.md) |
-| **Bases de dados** | [MongoDB](docs/databases/mongodb.md) · [MySQL](docs/databases/mysql.md) |
+| **Git and terminal** | [Terminal and Git](docs/git/terminal-and-git.md) · [Conventional Commits](docs/git/conventional-commits.md) |
+| **Databases** | [MongoDB](docs/databases/mongodb.md) · [MySQL](docs/databases/mysql.md) |
 | **Frontend** | [Vue.js (Options API)](docs/frontend/vue.md) |
-| **Meta** | [Prompts dados noutro repo](docs/meta/prompts-given.md) |
+| **Meta** | [Prompts from another repo](docs/meta/prompts-given.md) |
 
-Índice completo: **[docs/README.md](docs/README.md)**.
-
----
-
-## Como usar
-
-- Abre o guia que precisas em `docs/` e usa a pesquisa do editor (Ctrl/Cmd + F).
-- Podes editar e acrescentar notas à medida que aprendes.
-- Para sugerir melhorias, abre uma [issue](https://github.com/DinisMiranda/self_improvement/issues) ou consulta [CONTRIBUTING.md](CONTRIBUTING.md).
+Full index: **[docs/README.md](docs/README.md)**.
 
 ---
 
-## Mais informação
+## How to use
 
-- [CONTRIBUTING.md](CONTRIBUTING.md) — como contribuir com sugestões ou PRs.
-- [SECURITY.md](SECURITY.md) — como reportar problemas de segurança.
-- [CHANGELOG.md](CHANGELOG.md) — alterações por versão.
+- Open the guide you need under `docs/` and use your editor’s search (Ctrl/Cmd + F).
+- You can edit and add notes as you learn.
+- To suggest improvements, open an [issue](https://github.com/DinisMiranda/self_improvement/issues) or see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-*Repositório pessoal — mantido por ti, para ti.*
+---
+
+## More information
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) — how to contribute with suggestions or PRs.
+- [SECURITY.md](SECURITY.md) — how to report security issues.
+- [CHANGELOG.md](CHANGELOG.md) — changes by version.
+
+*Personal repository — maintained by you, for you.*

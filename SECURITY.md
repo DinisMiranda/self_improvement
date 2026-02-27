@@ -1,8 +1,8 @@
-# Segurança
+# Security
 
-Se encontrares uma vulnerabilidade de segurança neste repositório, por favor **não abras uma issue pública**.
+If you find a security vulnerability in this repository, please **do not open a public issue**.
 
-- Envia um email ou contacta-me por mensagem privada a descrever o problema.
-- Ou abre uma **security advisory** no GitHub: no repositório, *Security* → *Advisories* → *Report a vulnerability*.
+- Send an email or contact me privately to describe the issue.
+- Or open a **security advisory** on GitHub: in the repository, *Security* → *Advisories* → *Report a vulnerability*.
 
-Obrigado por ajudares a manter o projeto seguro.
+Thank you for helping keep the project secure.

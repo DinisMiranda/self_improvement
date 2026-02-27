@@ -1,9 +1,9 @@
-# Dependabot: atualizações automáticas de dependências.
-# Quando adicionares package.json, requirements.txt, etc., o Dependabot pode propor PRs.
+# Dependabot: automatic dependency updates.
+# When you add package.json, requirements.txt, etc., Dependabot can propose PRs.
 # https://docs.github.com/en/code-security/dependabot
 version: 2
 updates:
-  # Atualizações do GitHub Actions (se existirem workflows em .github/workflows/)
+  # GitHub Actions updates (if you have workflows in .github/workflows/)
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -12,7 +12,7 @@ updates:
     reviewers:
       - "DinisMiranda"
 
-  # Descomenta quando tiveres package.json (ex.: projeto Vue/Node)
+  # Uncomment when you have package.json (e.g. Vue/Node project)
   # - package-ecosystem: "npm"
   #   directory: "/"
   #   schedule:

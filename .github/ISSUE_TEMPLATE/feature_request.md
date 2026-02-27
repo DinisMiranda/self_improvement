@@ -1,19 +1,19 @@
 ---
-name: Pedido de funcionalidade / novo guia
-about: Sugerir um novo guia ou melhoria
+name: Feature request / new guide
+about: Suggest a new guide or improvement
 title: "[Feature] "
 labels: enhancement
 assignees: DinisMiranda
 ---
 
-## O que queres adicionar ou melhorar?
+## What do you want to add or improve?
 
-(ex.: novo guia de Docker, secção de Node.js no README, mais exemplos em vue-referencia.md)
+(e.g. new Docker guide, Node.js section in README, more examples in vue.md)
 
-## Porquê?
+## Why?
 
-Breve justificação — ajuda a priorizar.
+Brief justification — helps prioritize.
 
-## Detalhes (opcional)
+## Details (optional)
 
-Se tiveres ideia do conteúdo ou estrutura, descreve aqui.
+If you have an idea of the content or structure, describe it here.

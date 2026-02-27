@@ -1,90 +1,90 @@
-# Comandos de terminal: navegar e Git
+# Terminal commands: navigation and Git
 
-*Comandos básicos para te mexeres no computador pelo terminal e para usares Git. Estás a aprender — vai ao teu ritmo.*
-
----
-
-## Parte 1 — Navegar no computador
-
-O terminal trabalha com **pastas** (diretórios). Estás sempre "dentro" de uma. Estes comandos servem para ver onde estás e mudar de sítio.
-
-### `pwd` — Onde estou?
-- Mostra o **caminho completo** da pasta onde estás.
-- *Exemplo:* se aparecer `.../self_improvement`, é essa a tua pasta atual.
-
-### `ls` — O que há aqui?
-- Lista ficheiros e pastas dentro da pasta atual.
-- **`ls -l`** — mais detalhes (tamanho, datas).
-- **`ls -a`** — inclui ficheiros ocultos (ex.: `.git`).
-
-### `cd` — Mudar de pasta
-| Comando | O que faz |
-|---------|-----------|
-| `cd nome_da_pasta` | Entra nessa pasta (tem de existir) |
-| `cd ..` | Sobe um nível (pasta "pai") |
-| `cd` | Vai à tua pasta de utilizador (home) |
-| `cd /caminho/completo` | Vai diretamente para esse caminho |
-
-> **Dica:** no macOS/Linux escreve as primeiras letras do nome e carrega **Tab** — o terminal completa.
-
-### `mkdir` — Criar uma pasta
-- **`mkdir nome_nova_pasta`** — cria uma pasta com esse nome na pasta atual.
-
-### `clear` — Limpar o ecrã
-- Apaga o texto do terminal. Não apaga ficheiros; só deixa o ecrã mais limpo.
+*Basic commands to move around your machine in the terminal and to use Git. You're learning — go at your own pace.*
 
 ---
 
-## Parte 2 — Git (versões do teu projeto)
+## Part 1 — Navigating the computer
 
-O Git guarda **versões** do teu projeto. Assim podes voltar atrás se algo correr mal ou ver o que mudou.
+The terminal works with **directories** (folders). You're always "inside" one. These commands help you see where you are and move around.
 
-### `git status` — O que mudou?
-- Mostra em que ramo estás e que ficheiros foram alterados, adicionados ou não estão a ser seguidos.
-- *Usa sempre que quiseres saber o estado do projeto.*
+### `pwd` — Where am I?
+- Shows the **full path** of the directory you're in.
+- *Example:* if you see `.../self_improvement`, that's your current directory.
 
-### `git init` — Começar a usar Git
-- Faz **uma vez** por projeto. Cria a pasta oculta `.git` e o projeto passa a ser um "projeto Git".
+### `ls` — What's here?
+- Lists files and directories in the current directory.
+- **`ls -l`** — more details (size, dates).
+- **`ls -a`** — includes hidden files (e.g. `.git`).
 
-### `git add` — Preparar ficheiros
-- **`git add nome_do_ficheiro`** — prepara esse ficheiro.
-- **`git add .`** — prepara todos os ficheiros alterados.
-- "Preparar" = marcar para entrar na próxima "fotografia" (commit).
+### `cd` — Change directory
+| Command | What it does |
+|---------|---------------|
+| `cd folder_name` | Enter that folder (it must exist) |
+| `cd ..` | Go up one level (parent directory) |
+| `cd` | Go to your user home directory |
+| `cd /full/path` | Go directly to that path |
 
-### `git commit` — Guardar uma versão
-- **`git commit -m "Descrição do que fizeste"`** — guarda as alterações que preparaste, com uma mensagem curta.
-- *Exemplo:* `git commit -m "Adicionei ficheiro de prompts"`.
+> **Tip:** on macOS/Linux type the first letters of the name and press **Tab** — the terminal will complete it.
 
-### `git log` — Ver o histórico
-- Lista os commits (versões guardadas), do mais recente ao mais antigo.
-- *Sai com a tecla **q**.*
+### `mkdir` — Create a directory
+- **`mkdir new_folder_name`** — creates a directory with that name in the current directory.
 
-### `git diff` — Ver as diferenças
-- Mostra linha a linha o que mudou nos ficheiros ainda não adicionados. Útil antes de fazer commit.
-
-### `git branch` — Ramos (branches)
-- **`git branch`** — lista os ramos (o atual tem `*`).
-- **`git branch nome_do_ramo`** — cria um novo ramo. Útil para experimentar sem estragar o código principal.
-
-### `git checkout` — Mudar de ramo ou restaurar ficheiro
-- **`git checkout nome_do_ramo`** — muda para esse ramo.
-- **`git checkout -- nome_do_ficheiro`** — descarta alterações nesse ficheiro. *Cuidado: perdes o que não guardaste.*
-
-### `git pull` — Trazer alterações do remoto
-- Traz as alterações que estão no GitHub (ou noutro sítio) e junta-as ao teu projeto local.
-- *Faz isto antes de começares a trabalhar se alguém mais puder ter alterado o repo.*
-
-### `git push` — Enviar para o remoto
-- Depois do commit, **`git push`** envia os teus commits para o GitHub. Fica guardado na nuvem.
+### `clear` — Clear the screen
+- Clears the terminal text. Does not delete files; just clears the display.
 
 ---
 
-## Resumo rápido
+## Part 2 — Git (project versions)
 
-**Navegação:** `pwd` = onde estou · `ls` = o que há aqui · `cd` = mudar de pasta · `mkdir` = criar pasta
+Git stores **versions** of your project. You can go back if something goes wrong or see what changed.
 
-**Git:** `git status` = o que mudou · `git add` = preparar · `git commit` = guardar versão · `git pull` = trazer · `git push` = enviar
+### `git status` — What changed?
+- Shows which branch you're on and which files were modified, added, or are untracked.
+- *Use it whenever you want to know the project state.*
+
+### `git init` — Start using Git
+- Do this **once** per project. Creates the hidden `.git` directory and turns the project into a "Git project".
+
+### `git add` — Stage files
+- **`git add filename`** — stages that file.
+- **`git add .`** — stages all changed files.
+- "Stage" = mark to be included in the next "snapshot" (commit).
+
+### `git commit` — Save a version
+- **`git commit -m "Description of what you did"`** — saves the changes you staged, with a short message.
+- *Example:* `git commit -m "Add prompts file"`.
+
+### `git log` — View history
+- Lists commits (saved versions), newest first.
+- *Press **q** to exit.*
+
+### `git diff` — See differences
+- Shows line-by-line what changed in files not yet staged. Useful before committing.
+
+### `git branch` — Branches
+- **`git branch`** — lists branches (current one has `*`).
+- **`git branch branch_name`** — creates a new branch. Useful for trying things without affecting main code.
+
+### `git checkout` — Switch branch or restore file
+- **`git checkout branch_name`** — switch to that branch.
+- **`git checkout -- filename`** — discard changes in that file. *Warning: you lose unstaged changes.*
+
+### `git pull` — Fetch from remote
+- Fetches changes from GitHub (or elsewhere) and merges them into your local project.
+- *Do this before starting work if someone else might have changed the repo.*
+
+### `git push` — Push to remote
+- After committing, **`git push`** sends your commits to GitHub. They're stored in the cloud.
 
 ---
 
-*Quando tiveres dúvida, experimenta numa pasta de teste. Com o tempo estes comandos ficam naturais.*
+## Quick summary
+
+**Navigation:** `pwd` = where am I · `ls` = what's here · `cd` = change directory · `mkdir` = create directory
+
+**Git:** `git status` = what changed · `git add` = stage · `git commit` = save version · `git pull` = fetch · `git push` = push
+
+---
+
+*When in doubt, try things in a test directory. These commands become natural with practice.*

@@ -1,20 +1,20 @@
 ---
-name: Bug / erro
-about: Reportar um erro num guia (typo, comando errado, informação desatualizada)
+name: Bug / error
+about: Report an error in a guide (typo, wrong command, outdated information)
 title: "[Bug] "
 labels: bug
 assignees: DinisMiranda
 ---
 
-## Onde está o erro?
+## Where is the error?
 
-- **Ficheiro:** (ex.: comandos-terminal-e-git.md)
-- **Secção ou linha (se souberes):** 
+- **File:** (e.g. terminal-and-git.md)
+- **Section or line (if you know):** 
 
-## O que está errado?
+## What is wrong?
 
-Descreve o que está incorreto (ex.: comando não funciona, explicação confusa, link partido).
+Describe what is incorrect (e.g. command doesn't work, confusing explanation, broken link).
 
-## O que deveria estar?
+## What should it be?
 
-Se aplicável, indica a correção sugerida.
+If applicable, suggest the correction.

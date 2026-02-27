@@ -1,18 +1,18 @@
-## O que alteraste?
+## What did you change?
 
-Breve descrição das alterações (ex.: novo guia, correção no README, atualização de comandos).
+Brief description of the changes (e.g. new guide, README fix, command updates).
 
-## Tipo de alteração
+## Type of change
 
-- [ ] Correção (typo, comando errado, informação desatualizada)
-- [ ] Novo guia ou secção
-- [ ] Melhoria de formatação ou estrutura
-- [ ] Outro: ___
+- [ ] Fix (typo, wrong command, outdated information)
+- [ ] New guide or section
+- [ ] Formatting or structure improvement
+- [ ] Other: ___
 
-## Ficheiros alterados
+## Files changed
 
-Lista os ficheiros principais que modificaste.
+List the main files you modified.
 
 ---
 
-Obrigado por contribuíres. Se seguiste [Conventional Commits](https://github.com/DinisMiranda/self_improvement/blob/main/docs/git/conventional-commits.md), ótimo; se não, não há problema.
+Thanks for contributing. If you followed [Conventional Commits](https://github.com/DinisMiranda/self_improvement/blob/main/docs/git/conventional-commits.md), great; if not, no problem.

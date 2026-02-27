@@ -1,68 +1,68 @@
-# Prompts que deste (explicação simples)
+# Prompts you gave (simple explanation)
 
-*Isto é um resumo do que pediste noutro repositório. Como foi noutro projeto, não tens os ficheiros à frente — está descrito de forma geral: o tipo de coisas que pediste.*
-
----
-
-## Nesta sessão
-
-Pediste duas coisas:
-
-1. Como tornar um repositório **"profissional"**.
-2. Uma lista de todos os prompts que tinhas feito, num ficheiro.
+*This is a summary of what you asked for in another repository. Since it was another project, you don't have the files in front of you — it's described in general terms: the kind of things you asked for.*
 
 ---
 
-## O que foi feito noutro repo
+## In that session
 
-### Organização
-- Estrutura clara: pastas para código, configuração e scripts bem separadas.
-- Ficheiro **.gitignore** para o Git não guardar ficheiros desnecessários ou com dados sensíveis (ex.: palavras-passe).
+You asked for two things:
 
-### Configuração
-- A aplicação a ler definições de um ficheiro de config (ex.: .toml).
-- Um ficheiro **de exemplo** para outros copiarem.
-- O ficheiro verdadeiro com segredos **fora do Git**.
-- Tudo isto documentado no README.
+1. How to make a repository **"professional"**.
+2. A list of all the prompts you had given, in a file.
 
-### Base de dados e dependências
-- Ligação à base de dados (MySQL) num sítio só, reutilizável.
-- Projeto a usar **Poetry** para instalar dependências e correr scripts (em vez de truques manuais).
-- Instruções para instalar o Poetry quando não estava instalado.
+---
 
-### Testes
-- Testes automáticos (**Pytest**) para funções importantes: carregar a config (casos bons e maus) e funções que criam dados de exemplo.
-- Tipos no código consistentes (ex.: `list` em vez de `List` em versões antigas).
+## What was done in the other repo
 
-### Aspecto profissional do projeto
-- **pyproject.toml** completo (autores, licença, etc.).
-- Documentação e comentários em inglês.
-- Cada função com uma descrição clara (**docstrings**): o que faz, o que recebe, o que devolve.
+### Organization
+- Clear structure: separate folders for code, config, and scripts.
+- **.gitignore** so Git doesn't track unnecessary or sensitive files (e.g. passwords).
 
-### CI e cobertura
-- Testes a correr sozinhos no **GitHub Actions**.
-- Medir a **cobertura** dos testes (que percentagem do código está testada); em alguns módulos o objetivo era 100%.
+### Configuration
+- App reading settings from a config file (e.g. .toml).
+- An **example** file for others to copy.
+- The real file with secrets **outside Git**.
+- All of this documented in the README.
+
+### Database and dependencies
+- Database connection (MySQL) in one place, reusable.
+- Project using **Poetry** to install dependencies and run scripts (instead of manual workarounds).
+- Instructions to install Poetry when it wasn't installed.
+
+### Tests
+- Automated tests (**Pytest**) for important functions: loading config (good and bad cases) and functions that create sample data.
+- Consistent types in code (e.g. `list` instead of `List` in older style).
+
+### Professional project setup
+- Complete **pyproject.toml** (authors, license, etc.).
+- Documentation and comments in English.
+- Each function with a clear description (**docstrings**): what it does, what it takes, what it returns.
+
+### CI and coverage
+- Tests running automatically on **GitHub Actions**.
+- Measuring test **coverage** (what percentage of code is tested); in some modules the goal was 100%.
 
 ### GitHub
-- Ficheiros como **CODEOWNERS** e **Dependabot** para manter dependências atualizadas.
-- Comandos para definir a descrição e os tópicos do repositório no GitHub.
+- Files like **CODEOWNERS** and **Dependabot** to keep dependencies updated.
+- Commands to set the repo description and topics on GitHub.
 
-### "Realmente profissional"
-No fim pediste ficheiros que projetos sérios costumam ter:
+### "Really professional"
+At the end you asked for files that serious projects usually have:
 
-| Ficheiro / coisa | Para quê |
-|------------------|----------|
-| SECURITY.md | Como reportar falhas de segurança |
-| CONTRIBUTING.md | Como contribuir para o projeto |
-| CHANGELOG | Alterações por versão |
-| Badges no README | Testes, licença, etc. |
-| Ruff (linter) | Formatação e qualidade do código |
-| Templates no GitHub | Abrir bugs e pedidos de funcionalidades |
+| File / thing | What for |
+|--------------|----------|
+| SECURITY.md | How to report security issues |
+| CONTRIBUTING.md | How to contribute to the project |
+| CHANGELOG | Changes per version |
+| Badges in README | Tests, license, etc. |
+| Ruff (linter) | Code formatting and quality |
+| GitHub templates | Open bugs and feature requests |
 
 ---
 
-## Em resumo
+## In summary
 
-No outro repo pediste: **organização**, **config segura**, **testes**, **documentação**, **automação no GitHub** e ficheiros que tornam o projeto mais fácil de manter e de partilhar.
+In the other repo you asked for: **organization**, **secure config**, **tests**, **documentation**, **GitHub automation**, and files that make the project easier to maintain and share.
 
-Podes usar estas ideias em qualquer projeto parecido.
+You can reuse these ideas in any similar project.

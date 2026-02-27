@@ -1,37 +1,37 @@
-# Documentação — índice
+# Documentation — index
 
-Guias de referência agrupados por área.
-
----
-
-## Git e terminal
-
-| Guia | Conteúdo |
-|------|----------|
-| [terminal-and-git.md](git/terminal-and-git.md) | Navegação no terminal e comandos Git do dia a dia |
-| [conventional-commits.md](git/conventional-commits.md) | Prefixos e formato para mensagens de commit |
+Reference guides grouped by area.
 
 ---
 
-## Bases de dados
+## Git and terminal
 
-| Guia | Conteúdo |
-|------|----------|
-| [mongodb.md](databases/mongodb.md) | MongoDB: ligação, CRUD, agregações, índices |
-| [mysql.md](databases/mysql.md) | MySQL: ligação, queries, boas práticas |
+| Guide | Content |
+|-------|---------|
+| [terminal-and-git.md](git/terminal-and-git.md) | Terminal navigation and everyday Git commands |
+| [conventional-commits.md](git/conventional-commits.md) | Prefixes and format for commit messages |
+
+---
+
+## Databases
+
+| Guide | Content |
+|-------|---------|
+| [mongodb.md](databases/mongodb.md) | MongoDB: connection, CRUD, aggregations, indexes |
+| [mysql.md](databases/mysql.md) | MySQL: connection, queries, best practices |
 
 ---
 
 ## Frontend
 
-| Guia | Conteúdo |
-|------|----------|
-| [vue.md](frontend/vue.md) | Vue.js (Options API): CLI, componentes, Router, Pinia |
+| Guide | Content |
+|-------|---------|
+| [vue.md](frontend/vue.md) | Vue.js (Options API): CLI, components, Router, Pinia |
 
 ---
 
 ## Meta
 
-| Guia | Conteúdo |
-|------|----------|
-| [prompts-given.md](meta/prompts-given.md) | Resumo dos prompts usados noutro repo (organização, testes, docs) |
+| Guide | Content |
+|-------|---------|
+| [prompts-given.md](meta/prompts-given.md) | Summary of prompts used in another repo (organization, tests, docs) |
